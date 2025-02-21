@@ -2,7 +2,6 @@ class MathUtils:
   """
   Class that implements mathematical operations.
   """
-  
   @staticmethod
   def add(a: int | float, b: int | float) -> int | float:
     """
@@ -24,5 +23,6 @@ class MathUtils:
     """
     if b == 0:
       raise ValueError("You cannot divide by zero!")
-    return a / b 
+    return a / b
+
   
